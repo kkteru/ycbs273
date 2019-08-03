@@ -23,7 +23,6 @@ twitter_username: uzumaki
 github_username:  uzumaki
 
 # Build settings
-theme: minima
 sass:
   sass_dir: _sass
 include: ['_pages']
