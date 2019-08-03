@@ -24,8 +24,8 @@ github_username:  uzumaki
 
 # Build settings
 theme: minima
-# sass:
-#   sass_dir: _sass
+sass:
+  sass_dir: _sass
 include: ['_pages']
 kramdown:
   input: GFM

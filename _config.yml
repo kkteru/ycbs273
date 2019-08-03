@@ -19,14 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sample site to learn Jekyll
 baseurl: "/ycb273"
 url: "https://kkteru.github.io"
-
 twitter_username: uzumaki
 github_username:  uzumaki
 
 # Build settings
 theme: minima
-# sass:
-#   sass_dir: _sass
+sass:
+  sass_dir: _sass
 include: ['_pages']
 kramdown:
   input: GFM
