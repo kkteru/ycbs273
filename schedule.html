@@ -3,9 +3,10 @@ layout: default
 title: {{ site.name }}
 ---
 
-<h3> Tentative schedule for YCBS 273 </h3>
+<h3> Schedule for YCBS 273 </h3>
 
-<p> <b> Note: </b> Info about quizzes [to be updated]. 
+<p> <b>Note </b>: Every lecture has some colab notebooks associated with it. These notebooks demonstrate the concepts introduced in the lectures.
+
 
 <table>
 <tbody><tr nosave="">
@@ -27,7 +28,7 @@ Suggested readings:<br>
 <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br>
 <a href="http://colah.github.io/posts/2015-08-Backprop/">Christopher Olah's Technical Post 1</a><br>
 <td>
-	<a href="/slides/01-intro.pdf">Slides</a> <br/>
+	<a href="/~kteru/ycbs273/slides/01-intro.pdf">Slides</a> <br/>
 	<a href="https://colab.research.google.com/drive/1gBkCfQuhOgrW9L38hqGO-IMZxVBNw6f5">Notebook</a> <br/>
 </td>
 </td>
@@ -42,8 +43,11 @@ Suggested readings:<br>
 <td><br>
 Suggested readings:<br>
 <a href="http://cs231n.github.io/neural-networks-3/">Tips and tricks by Andrej Karpathy</a><br>
+<a href="http://neuralnetworksanddeeplearning.com/chap3.html">mproving the way neural networks learn</a><br>
 <td>
-	<a href="https://colab.research.google.com/drive/1fwnparxF9tEaV5--MBkqg0jOpatIU4lj">Notebook</a> <br/>
+	<a href="/~kteru/ycbs273/slides/02-tricks.pdf">Slides</a> <br/>
+	<a href="https://colab.research.google.com/drive/1sB1bGE2Q76fBv1NtcWT_2zbuhJMFVsr-">Notebook 1</a> <br/>
+	<a href="https://colab.research.google.com/drive/1fwnparxF9tEaV5--MBkqg0jOpatIU4lj">Notebook 2</a> <br/>
 </td>
 </td>
 </tr>
@@ -51,15 +55,15 @@ Suggested readings:<br>
 <tr>
 <td><center>3</center></td>
 <td><center>Aug. 9</center></td>
-<td><br><b>Introduction to Convolutional Neural Networks</b>: convolution and pooling operations, implementations in PyTorch<br/>
+<td><br><b>Clasification models : softmax, cross-entropy<br/>
 </td>
 <td><br>
-Suggested readings:<br>
+<!-- Suggested readings:<br>
 <a href="http://colah.github.io/posts/2014-07-Understanding-Convolutions/">Christopher Olah's Technical Post 2</a><br>
-<a href="http://colah.github.io/posts/2014-07-Conv-Nets-Modular/">Christopher Olah's Technical Post 3</a><br>
+<a href="http://colah.github.io/posts/2014-07-Conv-Nets-Modular/">Christopher Olah's Technical Post 3</a><br> -->
 <td>
-	<a href="https://colab.research.google.com/drive/1PYUjTKM1SidodJNyIRJepVsy1L5L1OiM">Notebook 1</a> <br/>
-	<a href="https://colab.research.google.com/drive/1gSrFsurEgshYiRG03FfcaqkwVlh9rjjI">Notebook 2</a> <br/>
+	<!-- <a href="https://colab.research.google.com/drive/1PYUjTKM1SidodJNyIRJepVsy1L5L1OiM">Notebook 1</a> <br/> -->
+	<!-- <a href="https://colab.research.google.com/drive/1gSrFsurEgshYiRG03FfcaqkwVlh9rjjI">Notebook 2</a> <br/> -->
 </td>
 </td>
 </tr>
@@ -67,55 +71,60 @@ Suggested readings:<br>
 <tr>
 <td><center>4</center></td>
 <td><center>Aug. 12</center></td>
-<td><br><b>Convolutional Neural Networks (contd.)</b>
+<td><br><b>Introduction to Convolutional Neural Networks</b>: convolution and pooling operations, implementations in PyTorch</b>
 </td>
 <td><br>
 Suggested readings:<br>
-<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
+<a href="http://colah.github.io/posts/2014-07-Understanding-Convolutions/">Christopher Olah's Technical Post 2</a><br>
+<a href="http://colah.github.io/posts/2014-07-Conv-Nets-Modular/">Christopher Olah's Technical Post 3</a><br>
+<a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br>
 <td>
-	<a href="https://colab.research.google.com/drive/1eUFipmml-WXgWRZFiZnSibjwTHmCY65e">Notebook</a> <br/>
+	<a href="/~kteru/ycbs273/slides/03-cnn-intro.pdf">Slides</a> <br/>
+	<a href="https://colab.research.google.com/drive/1PYUjTKM1SidodJNyIRJepVsy1L5L1OiM">Notebook 1</a> <br/>
 </td>
 </td>
 </tr>
 
 <tr>
 <td><center>5</center></td>
-<td><center>Aug. 12</center></td>
-<td><br><b>Regularization methods</b>: data augmentation, dropout, batchnorm
+<td><center>Aug. 13</center></td>
+<td><br><b>Popular CNN architectures and Regularization methods</b>
 </td>
 <td><br>
 Suggested readings:<br>
-<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
+<a href="http://cs231n.github.io/convolutional-networks/">CS231n lecture notes</a><br>
 <td>
-	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
-	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
+	<a href="/~kteru/ycbs273/slides/04-cnn-reg.pdf">Slides</a> <br/>
 </td>
 </td>
 </tr>
 
 <tr>
 <td><center>6</center></td>
-<td><center>Aug. 13</center></td>
-<td><br><b>Overview of popular CNN architectures</b>: AlexNet, VGG, ResNet</td>
+<td><center>Aug. 14</center></td>
+<td><br><b>Introduction to Recurrent Neural networks: RNN, LSTM, GRU</td>
 <td><br>
 Suggested readings:<br>
-<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
+<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Christopher Olah's Technical Post 4</a>
 <td>
-	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
-	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
+	<a href="/~kteru/ycbs273/slides/05-rnn-intro.pdf">Slides</a> <br/>
+	<a href="https://colab.research.google.com/drive/1Wot-whj-QAtSuBCoG7eUVIXoUaL9d7yD">Notebook</a> <br/>
 </td>
 </td>
 </tr>
 
 <tr>
 <td><center>7</center></td>
-<td><center>Aug. 13</center></td>
-<td><br><b>Introduction to Recurrent Neural Network</b>
+<td><center>Aug. 15</center></td>
+<td><br><b>Bi-directional RNNs; Sentiment analysis and POS tagging with RNN</b>
 </td>
 <td><br>
 Suggested readings:<br>
-<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Christopher Olah's Technical Post 4</a><br>
+<a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of RNNs (introduces language modelling)</a>
+<br>
 <td>
+	<a href="https://colab.research.google.com/drive/11d9XmMjKUWK-lgCfIGFYmFgVpbR_1zfv">Notebook 1</a> <br/>
+	<a href="https://colab.research.google.com/drive/1o0EaosVkT0Otx7F4mfMQVcaGZ66rTWBp">Notebook 2</a> <br/>
 	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
 	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
 </td>
@@ -124,39 +133,13 @@ Suggested readings:<br>
 
 <tr>
 <td><center>8</center></td>
-<td><center>Aug. 14</center></td>
-<td><br><b>Sentiment analysis and POS tagging with RNN</b></td>
-<td><br>
-Suggested readings:<br>
-<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
-<td>
-	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
-	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
-</td>
-</td>
-</tr>
-
-<tr>
-<td><center>9</center></td>
-<td><center>Aug. 15</center></td>
-<td><br><b>Language modelling with RNN</b></td>
-<td><br>
-Suggested readings:<br>
-<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
-<td>
-	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
-	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
-</td>
-</td>
-</tr>
-
-<tr>
-<td><center>10</center></td>
 <td><center>Aug. 16</center></td>
 <td><br><b>Review class</b></td>
 <td><br>
+<!-- <a href="http://neuralnetworksanddeeplearning.com/chap1.html">Using neural nets to recognize handwritten digits</a><br> -->
 <td>
-	
+	<!-- <a href="slides/04-linear_classification.pdf">Slides</a> <br/> -->
+	<!-- <a href="slides/04-linear_classification.pdf">Notebook</a> <br/> -->
 </td>
 </td>
 </tr>

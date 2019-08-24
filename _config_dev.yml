@@ -1,14 +1,14 @@
 # Setup
 title:        YCBS 273 - Practical Machine Learning
 tagline:      A crash course in deep learning
-baseurl:      ""
+baseurl:      "/~kteru/ycbs273"
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
   name:       Komal Teru
-  url:        http://localhost:4000
+  url:        ""
 
 # Gems
 gems:
