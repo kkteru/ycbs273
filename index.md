@@ -5,9 +5,8 @@ title: {{ site.name }}
 
 ### Key facts:
 * <b>Instructor:</b> Komal Teru
-* Term: Summer 2019
-* When: Monday - Friday, 1-4pm
-* Where: 3rd Floor, 550 ave Sherbrooke, Montreal
+* Term: Winter 2020
+* Where: Room 1041, 688 Rue Sherbrooke
 * See the [schedule](schedule.html) for more details.
 
 ### Description
